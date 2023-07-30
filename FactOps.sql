@@ -14,7 +14,7 @@ CREATE TABLE [Report].[FactOps](
 	[ShootTimeId] [int] NOT NULL,
 	[UserId] [int] NOT NULL,
 	[RoleId] [int] NULL,
-	[Segment] [varchar](100) NULL,
+	[Segment] [varchar](200) NULL,
 	[IsVideo] [bit] NULL,
 	[ShootDetails] [varchar](500) NULL,
 	[EventTypeId] [int] NULL,
